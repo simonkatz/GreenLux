@@ -745,7 +745,8 @@ footer {
     text-align: center;
 }
 
-footer span.copyright {
+.copyright span.copyright {
+	text-align: left;
     text-transform: uppercase;
     text-transform: none;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
