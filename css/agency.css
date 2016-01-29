@@ -42,7 +42,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #660000;
+    color: #006600;
 }
 
 h1,
@@ -197,7 +197,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     color: #006600;
-	padding: 13px;
+	padding: 10px;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -288,8 +288,8 @@ header {
     color: #fff;
     background-attachment: scroll;
     background-image: linear-gradient(
-			rgba(0, 0, 0, 0.3), 
-			rgba(0, 0, 0, 0.3)
+			rgba(0, 0, 0, 0.5), 
+			rgba(0, 0, 0, 0.5)
 		),url(../img/header-bg.jpg)
 		;
     background-position: center center;
@@ -792,7 +792,7 @@ ul.social-buttons li a:active {
     outline: 0;
 }
 
-.services-modal .modal-content {
+.modal .modal-content {
     padding: 100px 0;
     min-height: 100%;
     border: 0;
@@ -802,33 +802,33 @@ ul.social-buttons li a:active {
     box-shadow: none;
 }
 
-.services-modal .modal-content h2 {
+.modal .modal-content h2 {
     margin-bottom: 15px;
     font-size: 3em;
     text-align: center;
 }
 
-.services-modal .modal-content p {
+.modal .modal-content p {
     margin-bottom: 30px;
 }
 
-.services-modal .modal-content p.item-intro {
+.modal .modal-content p.item-intro {
     margin: 20px 0 30px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
 }
 
-.services-modal .modal-content ul.list-inline {
+.modal .modal-content ul.list-inline {
     margin-top: 0;
     margin-bottom: 30px;
 }
 
-.services-modal .modal-content img {
+.modal .modal-content img {
     margin-bottom: 30px;
 }
 
-.services-modal .close-modal {
+.modal .close-modal {
     position: absolute;
     top: 25px;
     right: 25px;
@@ -838,11 +838,11 @@ ul.social-buttons li a:active {
     cursor: pointer;
 }
 
-.services-modal .close-modal:hover {
+.modal .close-modal:hover {
     opacity: .3;
 }
 
-.services-modal .close-modal .lr {
+.modal .close-modal .lr {
     z-index: 1051;
     width: 1px;
     height: 75px;
@@ -853,7 +853,7 @@ ul.social-buttons li a:active {
     transform: rotate(45deg);
 }
 
-.services-modal .close-modal .lr .rl {
+.modal .close-modal .lr .rl {
     z-index: 1052;
     width: 1px;
     height: 75px;
@@ -863,7 +863,7 @@ ul.social-buttons li a:active {
     transform: rotate(90deg);
 }
 
-.services-modal .modal-backdrop {
+.modal .modal-backdrop {
     display: none;
     opacity: 0;
 }
