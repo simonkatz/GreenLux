@@ -66,18 +66,18 @@ h6 {
 
 .bg-light-green {
     background: 
-		linear-gradient(
-			rgba(34, 139, 34, 0.05), 
-			rgba(34, 139, 34, 0.05)
-		);
+        linear-gradient(
+            rgba(34, 139, 34, 0.05), 
+            rgba(34, 139, 34, 0.05)
+        );
 }
 
 .bg-light-yellow {
     background: 
-		linear-gradient(
-			rgba(252, 189, 17, 0.05), 
-			rgba(252, 189, 17, 0.05)
-		);
+        linear-gradient(
+            rgba(252, 189, 17, 0.05), 
+            rgba(252, 189, 17, 0.05)
+        );
 }
 .bg-darkest-gray {
     background-color: #222;
@@ -142,11 +142,11 @@ fieldset[disabled] .btn-primary.active {
     font-weight: 700;
     color: #fff;
     background: 
-		linear-gradient(
-			rgba(0, 200, 0, 0.1), 
-			rgba(0, 200, 0, 0.1)
-		);
-	margin-top: 50px;
+        linear-gradient(
+            rgba(0, 200, 0, 0.1), 
+            rgba(0, 200, 0, 0.1)
+        );
+    margin-top: 50px;
 }
 
 .btn-xl:hover,
@@ -197,7 +197,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     color: #006600;
-	padding: 10px;
+    padding: 10px;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -288,9 +288,9 @@ header {
     color: #fff;
     background-attachment: scroll;
     background-image: linear-gradient(
-			rgba(0, 0, 0, 0.3), 
-			rgba(0, 0, 0, 0.3)
-		),url(../img/header-bg.jpg);
+            rgba(0, 0, 0, 0.3), 
+            rgba(0, 0, 0, 0.3)
+        ),url(../img/header-bg.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -345,7 +345,7 @@ header .intro-text .intro-heading {
     line-height: 50px;
 }
 header .img-responsive {
-	display: inherit;
+    display: inherit;
 }
 
 section {
@@ -602,7 +602,7 @@ section h3.section-subheading {
         float: right;
         padding: 0 30px 20px 20px;
         text-align: left;
-		right: 10%;
+        right: 10%;
     }
 }
 
@@ -660,7 +660,7 @@ section h3.section-subheading {
 .team-member img {
     margin: 0 auto;
     border: 7px solid #fff;
-	max-height: 400px;
+    max-height: 400px;
 }
 
 .team-member h4 {
@@ -748,7 +748,7 @@ footer {
 }
 
 .copyright span.copyright {
-	text-align: left;
+    text-align: left;
     text-transform: uppercase;
     text-transform: none;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
