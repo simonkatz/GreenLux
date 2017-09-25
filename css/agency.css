@@ -253,6 +253,7 @@ fieldset[disabled] .btn-xl.active {
 
 @media(min-width:768px) {
     .navbar-default {
+        z-index: 2000;
         padding: 25px 0;
         border: 0;
         background-color: transparent;
@@ -449,10 +450,33 @@ section h3.section-subheading {
     z-index: 2;
 }
 
-@media(min-width:767px) {
+#app {
+    padding: 0px;
+}
+
+#app .download .text-center {
+    background-color: rgba(255, 255, 255, 0.81);
+    font-size: 20px;
+    font-weight: 400;
+}
+#app .store img{
+    max-width: 200px;
+    margin-bottom: 80px;
+}
+
+@media(min-width:769px) {
     #services .services-item {
         margin: 0 0 30px;
+    }   
+    #app .download {
+        top: -500px;
     }
+}
+
+.section-heading a {
+	margin: 20px;
+	color: white;
+	background: green;
 }
 
 .timeline {
@@ -762,6 +786,20 @@ footer ul.quicklinks {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 40px;
 }
+footer .copyright img {
+	max-width: 120px;
+}
+
+footer .copyright a {
+	margin: 5px;
+	padding: 5px;
+}
+
+.sk:hover {
+    transition: all .6s ease-in-out;
+    -webkit-transition: all .6s ease-in-out;
+    transform: scale(.9); 
+}
 
 ul.social-buttons {
     margin-bottom: 0;
@@ -806,7 +844,7 @@ ul.social-buttons li a:active {
 }
 
 .modal .modal-content h2 {
-    margin-bottom: 15px;
+    margin-bottom: 35px;
     font-size: 3em;
     text-align: center;
 }
@@ -833,7 +871,6 @@ ul.social-buttons li a:active {
 
 .modal .close-modal {
     position: absolute;
-    top: 25px;
     right: 25px;
     width: 75px;
     height: 75px;
